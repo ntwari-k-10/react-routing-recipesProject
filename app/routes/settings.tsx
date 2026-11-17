@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link,Outlet } from "react-router";
 
 export default function Settings(){
     return (
@@ -10,6 +10,7 @@ export default function Settings(){
                 <Link to="profile">Profile</Link>
               
             </nav>
+            <Outlet/> 
         </div>
     )
 }
