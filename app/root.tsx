@@ -53,7 +53,7 @@ export default function App() {
   return (
     <>
     <nav>
-      <Link to="/">Home</Link>
+      <Link to="index">Home</Link>
       <Link to="discover">Discover</Link>
       <Link to="app">App</Link>
       <Link to="settings">Settings</Link>
